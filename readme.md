@@ -45,7 +45,7 @@ After cleaning the data, I started playing with different features I engineered 
   My target for this project is price, more specifically price_usd_log. 
 On the right is the price before it is made into a log function. On the right, it is still skewed, but somewhat more normally distributed. 
 
-<img src="skewed_price.png"> <img src="normalized_price.png">
+<img src="./png/skewed_price.png"> <img src="./png/normalized_price.png">
 
 ## Baseline Model
 
@@ -65,7 +65,7 @@ Once the data was cleaned to the point of running a baseline model, I used the D
 This graph was not exactly what I expected, and there was large amount of expensive houses at 11 nights minimum.
 I found this to be pretty odd. 
 
-<img src="nights_price.png">
+<img src="./png/nights_price.png">
 
 
 ## Price by Distance to City Center 
@@ -74,7 +74,7 @@ Price vs Distance to City Center
  
 Here we can se there are more AirBnbs closer (< 5 miles, and the majority prive does seem to go down a little, there aslo seems to be a distinct mark at the 1000 and 2000 dollar range as people may round their price per night)
 
-<img src="price_distance.png">
+<img src="./png/price_distance.png">
 
 ## Price vs Number of Reviews
 
