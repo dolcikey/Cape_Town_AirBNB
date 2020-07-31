@@ -100,7 +100,7 @@ Many listings have under 100 revies, but those with the most reviews seem to be 
 
 ##Compared to baseline after cleaning: 
 ##RMSE 548.7970187273733 R2:  -0.04000143686100621    
-##Before Data cleaning, RMSE  693.3257724308925 R2:  -0.07212491057954762
+
 
 # An overall improvement of $178.33 towards accuracy using the Lasso Model.
 
