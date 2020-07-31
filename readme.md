@@ -80,7 +80,7 @@ Here we can se there are more AirBnbs closer (< 5 miles, and the majority prive 
 
 Many listings have under 100 revies, but those with the most reviews seem to be less costly, possibly because they are booked more frequently than the more expensive houses. 
 
-<img src="price_reviews.png">
+<img src="./png/price_reviews.png">
 
 ## Final Models
 
