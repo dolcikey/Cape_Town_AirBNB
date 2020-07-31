@@ -385,15 +385,8 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "This model proved challenging to work with as the amount of features was somewhat smaller than I had hoped. In combination with crime statistics, it did seem to be enough to help bring the baseline RMSE down $33 but pushed the R2 up to .995! I would say for the accuracy of the model, I would advise more data would be needed to accurately predict the pricing of an AirBnBs in Cape Town such as bedrooms and amenities. The crime rates in Cape Town do seem to play a major role in where AirBnBs are located as well as having Entire house/apt"
+    "This model proved challenging to work with as the amount of features was somewhat smaller than I had hoped. In combination with crime statistics, it did seem to be enough to help bring the baseline RMSE down $33 but pushed the R2 up to .995! I would say for the accuracy of the model, I would advise more data would be needed to accurately predict the pricing of an AirBnBs in Cape Town such as bedrooms and amenities. The crime rates in Cape Town do seem to play a major role in where AirBnBs are located as well as having Entire house/apt listed rather than a shared room. "
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {
