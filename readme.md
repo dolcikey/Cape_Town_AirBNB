@@ -108,7 +108,7 @@ Many listings have under 100 revies, but those with the most reviews seem to be 
 
 Models in Data Science are a powerful tool that can help us predict accuracy or interpret the impact of the variance on data set. Feature engineering allows us to build features and find statistically relevent information with the help of statistics in the way of statistical testing. 
 
-This model proved challenging to work with as the amount of features was somewhat smaller than I had hoped. In combination with crime statistics, it did seem to be enough to help bring the baseline RMSE down $178 but pushed the R2 up to .995! 
+This model proved challenging to work with as the amount of features was somewhat smaller than I had hoped. In combination with crime statistics, it did seem to be enough to help bring the baseline RMSE down $178! 
  
 I would say for the accuracy of the model, I would advise more data would be needed to accurately predict the pricing of an AirBnBs in Cape Town such as bedrooms and amenities, and more time to feature engineer and run additional statistical testing. 
  
