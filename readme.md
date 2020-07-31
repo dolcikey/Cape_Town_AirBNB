@@ -58,7 +58,7 @@ Once the data was cleaned to the point of running a baseline model, I used the D
 
     Crime per 10,000 People shown above shows the layout of capedown. The costal areas have between 100-300 crimes per 10,000. This affects price of the airbnb to some significance as per a Two Sample Test included in the Final_Cap
 
-    <img src="Crime_bright.png"><img src="price_map.png">
+<img src="./png/Crime_bright.png"><img src="./png/price_map.png">
 
 ## Price by Minimum Nights 
 
