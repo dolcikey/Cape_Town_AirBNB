@@ -219,7 +219,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Statistical Tests and Visualizations "
+    "## Statistical Tests and Visualizations fourn in Final Cape Town Air BNB"
    ]
   },
   {
@@ -228,7 +228,7 @@
    "source": [
     "    1. Two Sample T-test\n",
     "    2. ANOVA\n",
-    "    3. CHI-Sqared\n",
+    "    \n",
     "    "
    ]
   },
@@ -287,7 +287,65 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "<img src=\"Price_Min_Night.png\">"
+    "<img src=\"nights_price.png\">"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Price by Distance to City Center \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Price vs Distance to City Center\n",
+    " \n",
+    "Here we can se there are more AirBnbs closer (< 5 miles, and the majority prive does seem to go down a little, there aslo seems to be a distinct mark at the 1000 and 2000 dollar range as people may round their price per night)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<img src=\"price_distance.png\">"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    " "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    " "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Price vs Number of Reviews"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Many listings have under 100 revies, but those with the most reviews seem to be less costly, possibly because they are booked more frequently than the more expensive houses. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<img src=\"price_reviews.png\">"
    ]
   },
   {
@@ -349,8 +407,12 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Compared to baseline: \n",
-    "    RMSE 548.7970187273733 R2:  -0.04000143686100621"
+    "Compared to baseline after cleaning: \n",
+    "    RMSE 548.7970187273733 R2:  -0.04000143686100621\n",
+    "    \n",
+    "Before Data cleaning, RMSE  693.3257724308925 R2:  -0.07212491057954762\n",
+    "\n",
+    "# An overall improvement of $178.33 towards accuracy using the Lasso Model. "
    ]
   },
   {
@@ -385,7 +447,18 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "This model proved challenging to work with as the amount of features was somewhat smaller than I had hoped. In combination with crime statistics, it did seem to be enough to help bring the baseline RMSE down $33 but pushed the R2 up to .995! I would say for the accuracy of the model, I would advise more data would be needed to accurately predict the pricing of an AirBnBs in Cape Town such as bedrooms and amenities. The crime rates in Cape Town do seem to play a major role in where AirBnBs are located as well as having Entire house/apt listed rather than a shared room. "
+    "Models in Data Science are a powerful tool that can help us predict accuracy or interpret the impact of the variance on data set. Feature engineering allows us to build features and find statistically relevent information with the help of statistics in the way of statistical testing. \n",
+    "\n",
+    "This model proved challenging to work with as the amount of features was somewhat smaller than I had hoped. In combination with crime statistics, it did seem to be enough to help bring the baseline RMSE down $178 but pushed the R2 up to .995! \n",
+    " \n",
+    "I would say for the accuracy of the model, I would advise more data would be needed to accurately predict the pricing of an AirBnBs in Cape Town such as bedrooms and amenities, and more time to feature engineer and run additional statistical testing. \n",
+    " \n",
+    "    - The crime rates in Cape Town do seem to play a major role in where AirBnBs are located. Having gaps where crime is very high. \n",
+    "    - Having Entire house/apt listed rather than a shared room does effect price. \n",
+    "    - Distance to city center is not necessarily a factor on price, but there are more expensive options in the city center. \n",
+    "    - Number of reviews is statistically relevant to the price. \n",
+    "    \n",
+    "Frome a business standpoint, I believe investing in predicting the price of an AirBnb is a great tool to assess real estate investments, helping local South Africans price out their home when they are looking to take a holiday.\n"
    ]
   }
  ],
